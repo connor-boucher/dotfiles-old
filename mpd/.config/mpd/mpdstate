@@ -1,0 +1,32 @@
+sw_volume: 100
+audio_device_state:1:Pulseaudio
+audio_device_state:1:FiFo
+state: pause
+current: 0
+time: 1.548000
+random: 0
+repeat: 0
+single: 0
+consume: 0
+crossfade: 0
+mixrampdb: 0.000000
+mixrampdelay: -1.000000
+playlist_begin
+0:uyama hiroto - freeform jazz/uyama hiroto - freeform jazz - 01 Into The Freedom.flac
+1:uyama hiroto - freeform jazz/uyama hiroto - freeform jazz - 02 Yin And Yang.flac
+2:uyama hiroto - freeform jazz/uyama hiroto - freeform jazz - 03 Taiko.flac
+3:uyama hiroto - freeform jazz/uyama hiroto - freeform jazz - 04 Skipper.flac
+4:uyama hiroto - freeform jazz/uyama hiroto - freeform jazz - 05 Laidback.flac
+5:uyama hiroto - freeform jazz/uyama hiroto - freeform jazz - 06 Unconscious.flac
+6:uyama hiroto - freeform jazz/uyama hiroto - freeform jazz - 07 Solidscreme.flac
+7:uyama hiroto - freeform jazz/uyama hiroto - freeform jazz - 08 Fools No Rules feat. Segawa Tatsuya.flac
+8:uyama hiroto - freeform jazz/uyama hiroto - freeform jazz - 09 Waltz For Real World.flac
+9:uyama hiroto - freeform jazz/uyama hiroto - freeform jazz - 10 South Side feat. Shing02.flac
+10:uyama hiroto - freeform jazz/uyama hiroto - freeform jazz - 11 Departure.flac
+11:uyama hiroto - freeform jazz/uyama hiroto - freeform jazz - 12 Yamato Damasii.flac
+12:uyama hiroto - freeform jazz/uyama hiroto - freeform jazz - 13 Posse feat. Segawa Tatsuya.flac
+13:uyama hiroto - freeform jazz/uyama hiroto - freeform jazz - 14 Imagination.flac
+14:uyama hiroto - freeform jazz/uyama hiroto - freeform jazz - 15 Spacemountain.flac
+15:uyama hiroto - freeform jazz/uyama hiroto - freeform jazz - 16 Route 16.flac
+16:uyama hiroto - freeform jazz/uyama hiroto - freeform jazz - 17 Minano Pride.flac
+playlist_end

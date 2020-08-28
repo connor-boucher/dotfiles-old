@@ -1,0 +1,48 @@
+# .zshrc
+
+## print system information
+pfetch
+
+## apply the pywal colorscheme
+(cat ~/.cache/wal/sequences &)
+source ~/.cache/wal/colors-tty.sh
+
+## set shell prompt
+export PS1="> %B%n%b > [%~]: "
+
+## use antigen as the zsh package manager
+#source ~/.config/zsh/antigen.zsh
+
+## install packages
+#antigen bundle zsh-users/zsh-autosuggestions
+#antigen bundle zsh-users/zsh-syntax-highlighting
+#antigen apply
+
+## zsh settings
+setopt autocd
+setopt rcquotes
+setopt noclobber
+setopt correctall
+setopt histignoredups
+setopt cshjunkiequotes
+setopt interactivecomments
+
+## enable vi mode
+bindkey -v
+export KEYTIMEOUT=1
+
+## stop ctrl+s from freezing the terminal
+stty stop undef
+
+## set aliases
+alias "cat"="bat"
+alias "g"="git"
+alias "grep"="grep --color=auto"
+alias "ls"="ls -hN --color=auto --group-directories-first"
+alias "mkdir"="mkdir -pv"
+alias "p"="sudo pacman"
+alias "ss"="sudo systemctl"
+alias "top"="htop"
+alias "v"="nvim"
+alias "vim"="nvim"
+alias "y"="yay"
