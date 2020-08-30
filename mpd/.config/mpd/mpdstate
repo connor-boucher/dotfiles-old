@@ -1,9 +1,8 @@
-sw_volume: 100
+sw_volume: 30
 audio_device_state:1:Pulseaudio
 audio_device_state:1:FiFo
-state: pause
+state: stop
 current: 0
-time: 1.548000
 random: 0
 repeat: 0
 single: 0
@@ -12,21 +11,17 @@ crossfade: 0
 mixrampdb: 0.000000
 mixrampdelay: -1.000000
 playlist_begin
-0:uyama hiroto - freeform jazz/uyama hiroto - freeform jazz - 01 Into The Freedom.flac
-1:uyama hiroto - freeform jazz/uyama hiroto - freeform jazz - 02 Yin And Yang.flac
-2:uyama hiroto - freeform jazz/uyama hiroto - freeform jazz - 03 Taiko.flac
-3:uyama hiroto - freeform jazz/uyama hiroto - freeform jazz - 04 Skipper.flac
-4:uyama hiroto - freeform jazz/uyama hiroto - freeform jazz - 05 Laidback.flac
-5:uyama hiroto - freeform jazz/uyama hiroto - freeform jazz - 06 Unconscious.flac
-6:uyama hiroto - freeform jazz/uyama hiroto - freeform jazz - 07 Solidscreme.flac
-7:uyama hiroto - freeform jazz/uyama hiroto - freeform jazz - 08 Fools No Rules feat. Segawa Tatsuya.flac
-8:uyama hiroto - freeform jazz/uyama hiroto - freeform jazz - 09 Waltz For Real World.flac
-9:uyama hiroto - freeform jazz/uyama hiroto - freeform jazz - 10 South Side feat. Shing02.flac
-10:uyama hiroto - freeform jazz/uyama hiroto - freeform jazz - 11 Departure.flac
-11:uyama hiroto - freeform jazz/uyama hiroto - freeform jazz - 12 Yamato Damasii.flac
-12:uyama hiroto - freeform jazz/uyama hiroto - freeform jazz - 13 Posse feat. Segawa Tatsuya.flac
-13:uyama hiroto - freeform jazz/uyama hiroto - freeform jazz - 14 Imagination.flac
-14:uyama hiroto - freeform jazz/uyama hiroto - freeform jazz - 15 Spacemountain.flac
-15:uyama hiroto - freeform jazz/uyama hiroto - freeform jazz - 16 Route 16.flac
-16:uyama hiroto - freeform jazz/uyama hiroto - freeform jazz - 17 Minano Pride.flac
+0:toe - For Long Tomorrow/toe - For Long Tomorrow - 01 ここには何もかもがあるし、何もかもがない.flac
+1:toe - For Long Tomorrow/toe - For Long Tomorrow - 02 ショウシツ点よ笛.flac
+2:toe - For Long Tomorrow/toe - For Long Tomorrow - 03 After Image.flac
+3:toe - For Long Tomorrow/toe - For Long Tomorrow - 04 エソテリック.flac
+4:toe - For Long Tomorrow/toe - For Long Tomorrow - 05 Say It Ain't So.flac
+5:toe - For Long Tomorrow/toe - For Long Tomorrow - 06 Two Moons.flac
+6:toe - For Long Tomorrow/toe - For Long Tomorrow - 07 モスキートンはもう聞こえない #1.flac
+7:toe - For Long Tomorrow/toe - For Long Tomorrow - 08 モスキートンはもう聞こえない #2.flac
+8:toe - For Long Tomorrow/toe - For Long Tomorrow - 09 ラストナイト (Album Version).flac
+9:toe - For Long Tomorrow/toe - For Long Tomorrow - 10 グッドバイ (Album Version).flac
+10:toe - For Long Tomorrow/toe - For Long Tomorrow - 11 You Go.flac
+11:toe - For Long Tomorrow/toe - For Long Tomorrow - 12 Our Next Movement.flac
+12:toe - For Long Tomorrow/toe - For Long Tomorrow - 13 Long Tomorrow.flac
 playlist_end

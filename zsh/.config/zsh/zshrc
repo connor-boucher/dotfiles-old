@@ -4,8 +4,8 @@
 pfetch
 
 ## apply the pywal colorscheme
-(cat ~/.cache/wal/sequences &)
-source ~/.cache/wal/colors-tty.sh
+#(cat ~/.cache/wal/sequences &)
+#source ~/.cache/wal/colors-tty.sh
 
 ## set shell prompt
 export PS1="> %B%n%b > [%~]: "

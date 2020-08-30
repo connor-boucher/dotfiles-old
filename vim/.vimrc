@@ -1,20 +1,40 @@
 " vimrc
 
+"" map the leader key to space
+let mapleader = ' '
+
 "" plugins
 call plug#begin('~/.vim/plugged')
 
 Plug 'junegunn/vim-plug'
 
-Plug 'Shougo/deoplete.nvim'
+Plug 'AndrewRadev/splitjoin.vim'
+Plug 'Yggdroot/indentLine'
+Plug 'camspiers/animate.vim'
+Plug 'camspiers/lens.vim'
 Plug 'itchyny/lightline.vim'
-Plug 'rust-lang/rust.vim'
-Plug 'dylanaraps/wal.vim'
+Plug 'mhinz/vim-startify'
+Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'reedes/vim-pencil'
+Plug 'sheerun/vim-polyglot'
+Plug 'shinchu/lightline-gruvbox.vim'
+Plug 'vimwiki/vimwiki'
 
 call plug#end()
 
 "" plugin settings
-" let g:deoplete#enable_at_startup = 1
-let g:lightline = {'colorscheme': 'wombat'}
+
+""" coc
+nmap <space>e :CocCommand explorer<CR>
+
+""" lightline
+let g:lightline = {'colorscheme': 'gruvbox'}
+
+""" netrw
+let g:netrw_banner = 0
+let g:netrw_browsesplit = 4
+let g:netrw_liststyle = 3
+let g:netrw_winsize = 10
 
 "" autocmds
 augroup General
@@ -49,7 +69,6 @@ set nowritebackup
 set viminfo=
 
 "" ui
-colorscheme wal
 set lazyredraw
 set noshowmode
 set nowrap

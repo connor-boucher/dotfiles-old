@@ -2,71 +2,54 @@
 
 ## user application binds
 super + b
-    $BROWSER
-
+        "$BROWSER"
 super + d
-    discord
-
+        discord
 super + f
-    $TERMINAL -e lf
-
+        "$TERMINAL" -e lf
+super + i
+        "$TERMINAL" -e ytop
 super + n
-    $TERMINAL -e ncmpcpp
-
+        "$TERMINAL" -e ncmpcpp
 super + p
-	$TERMINAL -e pulsemixer
-
+        "$TERMINAL" -e pulsemixer
 super + r
-	rofi -show run
-
+        rofi -show run
 super + t
-	$TERMINAL
+        "$TERMINAL"
+super + shift + i
+        "$LOCK"
+Print
+        flameshot gui
 
 ## bspwm binds
 super + shift + q
-    bspc quit                            # quit bspwm
-
+        bspc quit                                                  # quit bspwm
 super + shift + r
-    bspc wm -r && pkill -USR1 -x sxhkd   # restart bspwm and sxhkd
-
+        bspc wm -r && pkill -USR1 -x sxhkd                         # restart bspwm and sxhkd
 super + w
-	bspc node -c                         # close the focused node
-
+        bspc node -c                                               # close the focused node
 super + shift + w
-    bspc node -k                         # kill the focused node
-
+        bspc node -k                                               # kill the focused node
 super + m
-	bspc desktop -l next                 # alternate between the tiled and monocle layout
-
+        bspc desktop -l next                                       # alternate between the tiled and monocle layout
 super + space
-	bspc node -s biggest.window          # swap the current node and the biggest window
-
-super + {h,j,k,l}
-	bspc node -f {west,south,north,east} # focus the node in the given direction
-
-super + shift + {h,j,k,l}
-	bspc node -s {west,south,north,east} # swap the node in the given direction
-
-super + {1-9}
-	bspc desktop -f '^{1-9}'             # focus the given desktop
-
-super + shift + {1-9}
-	bspc node -d '^{1-9}'                # move the focused node to the given desktop
-
-super + ctrl + {h,j,k,l}
-	bspc node -p {west,south,north,east} # preselect the direction
-
-super + ctrl + {1-9}
-	bspc node -o 0.{1-9}                 # preselect the ratio
-
-super + ctrl + space
-	bspc node -p cancel                  # cancel the preselection for the focused node
-
-super + alt + {h,j,k,l}
-	bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0} # expand a window by moving one of its side outward
-
-super + alt + shift + {h,j,k,l}
-	bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0} # contract a window by moving one of its side inward
-
-super + {Left,Down,Up,Right}
-	bspc node -v {-20 0,0 20,0 -20,20 0} # move a floating window
+        bspc node -f biggest.local.window                          # focus the biggest window
+super + shift + space
+        bspc node -s biggest.local.window                          # swap the current node and the biggest window
+super + {j, k}
+        bspc node -f {next, prev}.local.window                     # focus the next or last node on this desktop
+super + shift + {j, k}
+        bspc node -s {next, prev}.local.window                     # swap the next or last node on this desktop
+super + {bracketleft, bracketright, backslash}
+        bspc node -t {tiled, pseudo_tiled, floating}
+super + {1-6}
+        bspc desktop -f '^{1-6}'                                   # focus the given desktop
+super + shift + {1-6}
+        bspc node -d '^{1-6}'                                      # move the focused node to the given desktop
+#super + alt + {h,j,k,l}
+#       bspc node -z {left -20 0,bottom 0 20,top 0 -20,right 20 0} # expand a window by moving one of its side outward
+#super + alt + shift + {h,j,k,l}
+#       bspc node -z {right -20 0,top 0 20,bottom 0 -20,left 20 0} # contract a window by moving one of its side inward
+super + {Left, Down, Up, Right}
+        bspc node -v {-20 0, 0 20, 0 -20, 20 0}                    # move a floating window

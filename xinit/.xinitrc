@@ -1,7 +1,9 @@
+#!/bin/sh
+
 # xinitrc
 
 ## execute ~/.xprofile
-. ~/.xprofile
+[ -f "$HOME/.xprofile" ] && . "$HOME/.xprofile"
 
 ## launch bspwm
 exec bspwm
