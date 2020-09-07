@@ -1,12 +1,3 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =3
-let g:netrw_dirhist_3='/home/anon/dotfiles/sxhkd/.config/sxhkd'
-let g:netrw_dirhist_2='/home/anon'
-let g:netrw_dirhist_1='/home/anon/sauce/dwm-cb'
-let g:netrw_dirhist_0='/home/anon'
-let g:netrw_dirhist_9='/home/anon/sauce/dwm-cb'
-let g:netrw_dirhist_8='/home/anon/downloads/patches'
-let g:netrw_dirhist_7='/home/anon/downloads'
-let g:netrw_dirhist_6='/home/anon/downloads/patches'
-let g:netrw_dirhist_5='/home/anon/downloads'
-let g:netrw_dirhist_4='/home/anon/downloads/patches'
+let g:netrw_dirhistcnt =1
+let g:netrw_dirhist_1='/home/anon/.config/emacs'

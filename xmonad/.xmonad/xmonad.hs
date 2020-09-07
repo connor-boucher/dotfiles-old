@@ -33,7 +33,7 @@ myLayouts = toggleLayouts tile threeCol
     threeCol  = ThreeColMid  1        (5/100)  (55/100)
 
 myStartupHook = do
-    return ()
+  return ()
 
 -- run xmonad with the configured settings
 main :: IO ()
@@ -46,7 +46,7 @@ main = do
     , clickJustFocuses   = False
     , borderWidth        = 2
     , modMask            = mod4Mask
-    , workspaces         = ["dev","www","sys","mus","chat","misc","vid","doc","vbox"]
+    , workspaces         = ["dev", "www", "sys", "mus", "chat", "misc", "vid", "doc", "vbox"]
     , normalBorderColor  = "#dddddd"
     , focusedBorderColor = "#ff0000"
 

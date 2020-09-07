@@ -4,7 +4,7 @@
 let mapleader = ' '
 
 "" plugins
-call plug#begin('~/.vim/plugged')
+call plug#begin('~/.config/nvim/plugged')
 
 Plug 'junegunn/vim-plug'
 

@@ -16,6 +16,13 @@ if status is-login
     export XDG_DATA_HOME="$HOME/.local/share"
     export XDG_CACHE_HOME="$HOME/.cache"
 
+    ### miscellaneous program variables
+    export CARGO_HOME="$XDG_DATA_HOME/cargo"
+    export GNUPGHOME="$XDG_DATA_HOME/gnupg"
+    export GOPATH="$XDG_DATA_HOME/go"
+    export LESSHISTFILE="-"
+    export XAUTHORITY="$XDG_RUNTIME_DIR/Xauthority"
+
     # start x
     if test -z "$DISPLAY" -a "$XDG_VTNR" = 1
         exec startx --

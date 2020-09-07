@@ -5,10 +5,14 @@ super + b
         "$BROWSER"
 super + d
         discord
+super + e
+        emacs
 super + f
         "$TERMINAL" -e lf
 super + i
         "$TERMINAL" -e ytop
+super + m
+        tidal-hifi
 super + n
         "$TERMINAL" -e ncmpcpp
 super + p
@@ -31,7 +35,7 @@ super + w
         bspc node -c                                               # close the focused node
 super + shift + w
         bspc node -k                                               # kill the focused node
-super + m
+super + shift + m
         bspc desktop -l next                                       # alternate between the tiled and monocle layout
 super + space
         bspc node -f biggest.local.window                          # focus the biggest window
